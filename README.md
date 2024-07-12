@@ -9,7 +9,7 @@
 
 Kamona is a design system created to be a platform-agnostic and consistent experience.
 
-## Features
+### Features
 
 - Brand identity/brand assets : visual design elements, typography, colours, etc.
 
