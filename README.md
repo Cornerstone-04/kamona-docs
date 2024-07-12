@@ -1,6 +1,9 @@
 <header align="center">
-    <img src="./assets/images/logo-primary-lg.svg" alt="moniepoint primary logo">
-    <h1>kamona UI</h1>
+
+![Moniepoint primary Logo.](/assets/images/logo-primary-lg.svg)
+
+# Kamona UI
+
 </header>
 
 [![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
