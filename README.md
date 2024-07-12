@@ -17,7 +17,9 @@ Kamona is a design system created to be a platform-agnostic and consistent exper
 
 - Codebase :  the code elements to be designed i.e. the code translation of the UI elements that have already been designed.
 
-## Usage & Development
+Read more [here](https://moniepoint.com/blog/meet-kamona-the-design-system-pulsing-through-teamapts-products).
+
+## Development & Usage
 
 ### Clone the repo locally
 
@@ -30,12 +32,12 @@ $ pnpm run storybook-v2:preview
 
 Open your browser and visit **_http://localhost:4400_**.
 
-[![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
+![Kamona Storybook Preview](/assets/images/kamona-storybook.gif)
 
 ### Usage
 
 ```tsx
-export default () => (
+export const Component () => (
   <>
     <Button appearance="danger" variant="ghost">
         Click Me
@@ -52,8 +54,46 @@ export default () => (
 );
 ```
 
+### Formatting
+
+Check for linting errors with:
+
+```bash
+pnpm lint:all
+```
+
+To fix all fixable errors, use:
+
+```bash
+pnpm lint:fix_all
+```
+
+To only run on affected or changed code, use:
+
+```bash
+pnpm lint
+```
+
+To fix all fixable errors, use:
+
+```bash
+pnpm lint:fix
+```
+
+### Building Project
+
+To build all projects with a build target, run:
+
+```bash
+pnpm build:all
+```
+
+For building only affected changes, run:
+
+```bash
+pnpm build
+```
+
 ## Contributing
 
-We warmly invite contributions from everyone. Before you get started, please take a moment to review our [Contributing Guide](https://ant.design/docs/react/contributing). Feel free to share your ideas through [Pull Requests](https://github.com/ant-design/ant-design/pulls) or [GitHub Issues](https://github.com/ant-design/ant-design/issues). If you're interested in enhancing our codebase, explore the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and enjoy your coding journey! :)
-
-For collaborators, adhere to our [Pull Request Principle](https://github.com/ant-design/ant-design/wiki/PR-principle) and utilize our [Pull Request Template](https://github.com/ant-design/ant-design/wiki/PR-principle#pull-request-template) when creating a Pull Request.
+Before contributing, take a look at the [Contributing Guidelines](https://teamapt.atlassian.net/wiki/spaces/MAE/pages/1272709130/Contribution+Guidelines).
