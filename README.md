@@ -1,9 +1,9 @@
 <div align="center">
-    <img src="./assets/images/logo-primary-lg.svg" alt="Moniepoint primary Logo">
+    <img src="./assets/logo-primary-lg.svg" alt="Moniepoint primary Logo">
     <h1>Kamona UI</h1>
 </div>
 
-[![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
+[![Moniepoint Cover Image](/assets/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
 
 ## What is Kamona?
 
@@ -32,7 +32,7 @@ $ pnpm run storybook-v2:preview
 
 Open your browser and visit **_http://localhost:4400_**.
 
-![Kamona Storybook Preview](/assets/images/kamona-storybook.gif)
+![Kamona Storybook Preview](/assets/kamona-storybook.gif)
 
 ### Usage
 
