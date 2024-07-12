@@ -21,7 +21,14 @@ Read more [here](https://moniepoint.com/blog/meet-kamona-the-design-system-pulsi
 
 ## Development & Usage
 
-### Clone the repo locally
+### Requirements
+
+1. [NodeJS](https://nodejs.org)
+2. [Pnpm](https://pnpm.io)
+
+### Installation
+
+1. Clone the repo locally
 
 ```bash
 $ git clone https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib.git
@@ -30,7 +37,7 @@ $ pnpm install
 $ pnpm run storybook-v2:preview
 ```
 
-Open your browser and visit **_http://localhost:4400_**.
+2. Open your browser and visit **_http://localhost:4400_**.
 
 ![Kamona Storybook Preview](/assets/kamona-storybook.gif)
 
@@ -56,6 +63,12 @@ export const Component () => (
 
 ### Formatting
 
+To only run on affected or changed code, use:
+
+```bash
+pnpm lint
+```
+
 Check for linting errors with:
 
 ```bash
@@ -65,33 +78,27 @@ pnpm lint:all
 To fix all fixable errors, use:
 
 ```bash
-pnpm lint:fix_all
-```
-
-To only run on affected or changed code, use:
-
-```bash
-pnpm lint
+pnpm lint:fix
 ```
 
 To fix all fixable errors, use:
 
 ```bash
-pnpm lint:fix
+pnpm lint:fix_all
 ```
 
 ### Building Project
-
-To build all projects with a build target, run:
-
-```bash
-pnpm build:all
-```
 
 For building only affected changes, run:
 
 ```bash
 pnpm build
+```
+
+To build all projects with a build target, run:
+
+```bash
+pnpm build:all
 ```
 
 ## Contributing
