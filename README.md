@@ -1,9 +1,6 @@
 <div align="center">
-
-![Moniepoint primary Logo.](/assets/images/logo-primary-lg.svg)
-
-# Kamona UI
-
+    <img src="./assets/images/logo-primary-lg.svg" alt="Moniepoint primary Logo">
+    <h1>Kamona UI</h1>
 </div>
 
 [![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
@@ -33,15 +30,24 @@ $ pnpm run storybook-v2:preview
 
 Open your browser and visit **_http://localhost:4400_**.
 
+[![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
+
 ### Usage
 
 ```tsx
-import { Button, DatePicker } from "antd";
-
 export default () => (
   <>
-    <Button type="primary">PRESS ME</Button>
-    <DatePicker placeholder="select date" />
+    <Button appearance="danger" variant="ghost">
+        Click Me
+    </Button>
+    <Alert
+        action={{
+            handler: () => {},
+            label: 'Click Me'
+        }}
+        appearance="success"
+        title="An Alert Title"
+    />
   </>
 );
 ```
