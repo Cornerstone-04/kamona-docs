@@ -1,10 +1,10 @@
-<header align="center">
+<div align="center">
 
 ![Moniepoint primary Logo.](/assets/images/logo-primary-lg.svg)
 
 # Kamona UI
 
-</header>
+</div>
 
 [![Moniepoint Cover Image](/assets/images/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
 
