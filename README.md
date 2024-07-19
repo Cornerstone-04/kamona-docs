@@ -3,43 +3,36 @@
     <h1>Kamona UI</h1>
 </div>
 
-[![Moniepoint Cover Image](/assets/kamona-layout.png)](https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib)
+> Kamona is a design system created to be a platform-agnostic and consistent experience. Read more [here](https://moniepoint.com/blog/meet-kamona-the-design-system-pulsing-through-teamapts-products).
 
-## What is Kamona?
+## Resources and Links
 
-Kamona is a design system created to be a platform-agnostic and consistent experience.
-
-### Features
-
-- Brand identity/brand assets : visual design elements, typography, colours, etc.
-
-- UI Library : interface elements and how they are styled.
-
-- Codebase :  the code elements to be designed i.e. the code translation of the UI elements that have already been designed.
-
-Read more [here](https://moniepoint.com/blog/meet-kamona-the-design-system-pulsing-through-teamapts-products).
+1. [`Figma`]() - Design Specifications
+2. [`Jira`](https://teamapt.atlassian.net/jira/software/projects/KAM/boards/266) - Task Management and issue tracking
 
 ## Development & Usage
 
 ### Requirements
 
-1. [NodeJS](https://nodejs.org)
-2. [Pnpm](https://pnpm.io)
+1. [`NodeJS`](https://nodejs.org)
+2. [`Pnpm`](https://pnpm.io)
 
 ### Installation
 
-1. Clone the repo locally
+- Clone the repo locally
 
 ```bash
-$ git clone https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib.git
-$ cd kamona-ui-lib
-$ pnpm install
-$ pnpm run storybook-v2:preview
+git clone https://gitlab.com/tcosmos/kamona-ui/kamona-ui-lib.git
+cd kamona-ui-lib
+pnpm install
+pnpm run storybook-v2:preview
 ```
 
-2. Open your browser and visit **_http://localhost:4400_**.
+- Open your browser and visit **http://localhost:4400**.
 
-![Kamona Storybook Preview](/assets/kamona-storybook.gif)
+### Contributing
+
+> Before contributing, take a look at the [Contributing Guidelines](https://teamapt.atlassian.net/wiki/spaces/MAE/pages/1272709130/Contribution+Guidelines).
 
 ### Usage
 
@@ -101,6 +94,53 @@ To build all projects with a build target, run:
 pnpm build:all
 ```
 
-## Contributing
+### Folder Structure
 
-Before contributing, take a look at the [Contributing Guidelines](https://teamapt.atlassian.net/wiki/spaces/MAE/pages/1272709130/Contribution+Guidelines).
+- `.nx` -
+  - `cache`
+- `.vscode`
+- `apps`
+  - `kamona_stories`
+    - `.storybook`
+    - `public`
+    - `src`
+      - `resources`
+  - `v2`
+- `ci`
+  - `kubernetes`
+    - `development`
+      - `charts`
+        - `templates`
+  - `v2`
+    - `kubernetes`
+      - `development`
+        - `charts`
+          - `templates`
+- `lib`
+  - `core`
+  - `icons`
+    - `icons`
+    - `scripts`
+    - `src`
+    - `twotone-icons`
+  - `utils`
+    - `src`
+      - `events`
+      - `flags`
+      - `form`
+      - `internationalization`
+      - `moment`
+      - `save-file`
+      - `screen`
+      - `scripts`
+        - `internationalizsation`
+      - `shared`
+      - `storagetypes`
+  - `v2`
+    - `components`
+    - `icons`
+    - `styled-systems`
+    - `tailwind-plugins`
+    - `tokens`
+    - `utils`
+- `patches`
